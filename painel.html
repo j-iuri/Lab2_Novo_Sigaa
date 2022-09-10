@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de controle</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h3 {
+            color: blue;
+            font-family:fantasy;
+            font-size: x-large;
+        } 
+        
+        .linha {
+            /* content: ""; */
+            /* border: 3px solid red; */
+            margin: 20px;
+            display: table;
+            /* clear: both; */
+            
+        }
+        .coluna{
+            float: left;
+            padding: 15px;
+        }
+        div {
+            margin: 10px;
+            
+        }
+
+        [id="fonte-especial"] {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+        .fonte {
+            color:darkblue;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>Novo SIGAA</h1>
+    </header>
+    
+    <div>
+        <a href="file:///C:/Users/Iuri/Web/SIGAA/historico.html">histórico</a>
+        <a href="C:\Users\Iuri\Web\SIGAA\cadastro.html">cadastrar em disciplinas</a>
+    </div>
+
+    <div style="position:relative; left: 600px;">
+        <label for="colors">Tema</label>
+        <select name="colors" id="">
+            <option value="blue">Azul</option>
+            <option value="red">Vermelho</option>
+            <option value="green">Verde</option>
+        </select>
+    </div>
+
+    <h2 id="fonte-especial">Meu nome</h2>
+    
+    <img src="C:\Users\Iuri\Web\SIGAA\student_picture.png">
+    
+    <div class="linha">
+        <div class="coluna">
+            <p>
+                email: alunotal@alu.ufc.br<br>
+                IRA: 7.0
+            </p>
+        </div>
+        <div class="coluna">
+            <p>
+                carga horária exigida: 3200 h<br>
+                carga horária cursada: 2900 h<br>
+                carga horária pendente: 300 h
+            </p>
+        </div>
+    </div>
+    
+
+    <div>
+
+        <h3>Disciplinas</h3>
+
+        <p class="fonte">
+            <br>engenharia de software<br>tecnologia web<br>programação<br><br>
+            créditos: 256
+            
+         </p>
+    </div>
+
+    <br>
+
+    <!-- <section>
+        <p>
+            carga horária exigida: 3200 h carga horária cursada: 2900 h carga horária pendente: 300 h
+        </p>
+    </section> -->
+
+    <footer>
+        <p>endereço<br>telefone: 98747-1234<br>Todos os direitos reservados</p>
+   </footer>
+</body>
+</html>
